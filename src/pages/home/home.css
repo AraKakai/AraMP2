@@ -1,0 +1,43 @@
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hero {
+    background-image: url('C:\Users\delac\Desktop\MP2\src\assets\products\coco final.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero h1 {
+    font-size: 100px;
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .hero p {
+    font-size: 100px;
+  }
+  
+  .order-button {
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 100px;
+  }
+  
+  .order-button:hover {
+    background-color: burlywood;
+  }
+  
